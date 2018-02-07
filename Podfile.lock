@@ -1,0 +1,20 @@
+PODS:
+  - SQLite.swift/standalone (0.11.3):
+    - sqlite3 (>= 3.14.0)
+  - sqlite3 (3.15.0):
+    - sqlite3/common (= 3.15.0)
+  - sqlite3/common (3.15.0)
+  - sqlite3/fts5 (3.15.0):
+    - sqlite3/common
+
+DEPENDENCIES:
+  - SQLite.swift/standalone (~> 0.11.3)
+  - sqlite3/fts5 (= 3.15.0)
+
+SPEC CHECKSUMS:
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
+  sqlite3: 4ba9cf1ded09a1442e17c92c82638787076d877d
+
+PODFILE CHECKSUM: bcfedc46a7b85b3b0eb51732120fce1e27b807d1
+
+COCOAPODS: 1.2.0
